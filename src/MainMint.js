@@ -44,8 +44,8 @@ const MainMint = ({accounts, setAccountsd }) => {
 	};
 
 	return (
-		<Flex justify='center' align='center' height='100vh' paddingBottom='150px'>
-			<Box width='520px'>
+		<Flex justify='center' align='center' height='100vh' width='100vw' paddingBottom='150px'>
+			<Box width='520px' >
 			<div>
 				<Text fontSize='48px' textShadow='0 5px 5px #000000'>B33Z</Text>
 				<Text
@@ -53,6 +53,7 @@ const MainMint = ({accounts, setAccountsd }) => {
 					letterSpacing='-5.5%'
 					fontFamily='VT323'
 					textShadow='0 4px 4px #000000'
+					
 					
 				>
 					TH3 B33Z AR3 COMING
@@ -123,6 +124,7 @@ const MainMint = ({accounts, setAccountsd }) => {
 					textShadow='0 4px 4px #000000'
 					fontSize='30px'
 					color='#D6517D'
+					
 				>
 					YOU MUST B3 CONN3CT3D TO M3TAMASK TO MINT
 				</Text>

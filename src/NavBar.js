@@ -20,15 +20,15 @@ const NavBar = ({accounts, setAccounts}) => {
 	return (
 		<Flex justify="space-between" align="center" padding="30px 30px">
 			 {/*left side of the nav bar - Social Media Icons*/}
-			<Flex justify="space-around" width="40%" padding="0 75px">
+			<Flex justify="space-around" width="30%" padding="0 75px">
 				<Link href='https://opensea.io/'> 
-					<Image src={OpenSea} boxSize="30px" margin='0 15px' />
+					<Image src={OpenSea} boxSize="40px" margin='0 15px' />
 				</Link>
 				<Link href='https://twitter.com/'> 
-					<Image src={Twitter} boxSize="30px" margin='0 15px' />
+					<Image src={Twitter} boxSize="35px" margin='0 15px' />
 				</Link>
 				<Link href='https://discord.com/'> 
-					<Image src={Discord} boxSize="30px" margin='0 15px' />
+					<Image src={Discord} boxSize="45px" margin='0 15px' />
 				</Link>
 			</Flex>
 			
@@ -41,11 +41,26 @@ const NavBar = ({accounts, setAccounts}) => {
 			padding='30px'
 			>
 
-			<Box margin='0 15px'>ABOUT</Box>
+			<Box 
+			margin='0 15px'
+			textShadow='0 3px 3px #000000'
+			>
+				ABOUT
+			</Box>
 			<Spacer />
-			<Box margin='0 15px'>MINT</Box>
+			<Box 
+			margin='0 15px'
+			textShadow='0 3px 3px #000000'
+			>
+				MINT
+			</Box>
 			<Spacer />
-			<Box margin='0 15px'>T3AM</Box>
+			<Box
+			margin='0 15px'
+			textShadow='0 3px 3px #000000'
+			>
+				T3AM
+			</Box>
 			<Spacer />
 
 			{/* Connect */}
@@ -61,6 +76,7 @@ const NavBar = ({accounts, setAccounts}) => {
 				fontFamily='inherit'
 				padding='10px'
 				margin='0 10px'
+				textShadow='0 3px 3px #000000'
 				onClick={connectAccount}
 				>
 					CONN3CT WALL3T
