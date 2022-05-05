@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/B33-T3ST/static/css/main.dea8e7fd.css",
-    "main.js": "/B33-T3ST/static/js/main.a93bb135.js",
+    "main.js": "/B33-T3ST/static/js/main.7ccd880d.js",
     "static/media/parallax-bg.gif": "/B33-T3ST/static/media/parallax-bg.a753668321d10848110d.gif",
     "index.html": "/B33-T3ST/index.html",
     "main.dea8e7fd.css.map": "/B33-T3ST/static/css/main.dea8e7fd.css.map",
-    "main.a93bb135.js.map": "/B33-T3ST/static/js/main.a93bb135.js.map"
+    "main.7ccd880d.js.map": "/B33-T3ST/static/js/main.7ccd880d.js.map"
   },
   "entrypoints": [
     "static/css/main.dea8e7fd.css",
-    "static/js/main.a93bb135.js"
+    "static/js/main.7ccd880d.js"
   ]
 }
