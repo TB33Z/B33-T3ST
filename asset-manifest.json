@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/TB33Z/B33-T3ST.git/static/css/main.24181035.css",
+    "main.js": "/TB33Z/B33-T3ST.git/static/js/main.a83e1b1d.js",
+    "static/media/parallax-bg.gif": "/TB33Z/B33-T3ST.git/static/media/parallax-bg.a753668321d10848110d.gif",
+    "index.html": "/TB33Z/B33-T3ST.git/index.html",
+    "main.24181035.css.map": "/TB33Z/B33-T3ST.git/static/css/main.24181035.css.map",
+    "main.a83e1b1d.js.map": "/TB33Z/B33-T3ST.git/static/js/main.a83e1b1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24181035.css",
+    "static/js/main.a83e1b1d.js"
+  ]
+}
